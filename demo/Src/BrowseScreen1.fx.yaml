@@ -107,6 +107,7 @@
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
         Width: =Parent.Width
+        Y: =TextSearchBox1.Y + TextSearchBox1.Height
         ZIndex: =9
 
         Title1 As label:
@@ -174,13 +175,4 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
-
-    Button2 As button:
-        Height: =70
-        Size: =24
-        Text: ="Save"
-        Width: =280
-        X: =126
-        Y: =576
-        ZIndex: =10
 
