@@ -1,0 +1,27 @@
+{
+  "46706ef0-4978-4221-9af5-ca8e39ced945": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://ramdevdeveloper.sharepoint.com/sites/testing_site": {
+        "dataSources": {
+          "emp_details": {
+            "tableName": "89ac0fbb-c345-404c-bdbd-4cb772a9fa55"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "emp_details"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "46706ef0-4978-4221-9af5-ca8e39ced945"
+  }
+}
