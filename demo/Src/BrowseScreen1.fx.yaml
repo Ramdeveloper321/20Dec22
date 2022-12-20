@@ -6,7 +6,7 @@
         ZIndex: =1
 
     LblAppName1 As label:
-        Fill: =RGBA(58, 58, 58, 0)
+        Fill: =RGBA(99, 139, 44, 1)
         Height: =88
         Size: =27
         Text: ="emp_details"
