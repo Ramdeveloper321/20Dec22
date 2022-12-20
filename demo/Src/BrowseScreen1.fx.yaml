@@ -176,3 +176,12 @@
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
+    Button1 As button:
+        Height: =70
+        Size: =24
+        Text: ="Save"
+        Width: =280
+        X: =150
+        Y: =750
+        ZIndex: =10
+
