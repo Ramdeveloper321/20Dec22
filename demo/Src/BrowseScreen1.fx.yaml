@@ -124,6 +124,7 @@
             ZIndex: =1
 
         Subtitle1 As label:
+            Fill: =RGBA(232, 244, 217, 1)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
